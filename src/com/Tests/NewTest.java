@@ -23,6 +23,7 @@ WebDriver driver;
 	  Thread.sleep(2000);
 	  driver.findElement(By.cssSelector("input[type='submit']")).click();
 	  Thread.sleep(2000);
+	  System.out.println("added line here");
 	  }
 	  catch(Exception e) {
 		  
